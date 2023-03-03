@@ -1,0 +1,16 @@
+{
+  "name": "js",
+  "version": "1.2.3",
+  "description": "Ovo je nas novi projekat",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index",
+    "test": "node test"
+  },
+  "keywords": [
+    "project",
+    "class36"
+  ],
+  "author": "Miroslav Andric",
+  "license": "ISC"
+}

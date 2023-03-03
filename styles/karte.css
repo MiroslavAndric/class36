@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.card {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.score_text {
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+    
+}
+.card_symbol {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card_symbol span {
+    font-size: 30px;
+}
+.card_value {
+    font-size: 80px;
+}
+.computer {
+    transform: rotate(180deg);
+}
+.red {
+    color: red;
+    border: 2px solid red;
+
+}
+.end_game {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end_game h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    user-select: none;
+}
+.end_game button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.end_game button div {
+    width: 0px;
+    height: 3px;
+    background-color: white;
+}
+.end_game button:hover > div{
+    animation: buttonHover 1s;
+    animation-fill-mode: forwards;
+}
+.hidden {
+    display: none;
+}
+
+@keyframes buttonHover {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+    
+}

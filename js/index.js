@@ -1,0 +1,1 @@
+console.log('neki moj inicijalni js')

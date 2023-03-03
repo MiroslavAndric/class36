@@ -1,0 +1,29 @@
+{
+    "navigation" : [
+        {
+            "title": "Lista 1",
+            "dataId": "list1",
+            "elements": ["Podlista 1.1", "Podlista 1.2", "Podlista 1.3"]
+        },
+        {
+            "title": "Lista 2",
+            "dataId": "list2",
+            "elements": ["Podlista 2.1", "Podlista 2.2", "Podlista 2.3"]
+        },
+        {
+            "title": "Lista 3",
+            "dataId": "list3",
+            "elements": ["Podlista 3.1", "Podlista 3.2", "Podlista 3.3"]
+        },
+        {
+            "title": "Lista 4",
+            "dataId": "list4",
+            "elements": ["Podlista 4.1", "Podlista 4.2", "Podlista 4.3"]
+        },
+        {
+            "title": "Lista 5",
+            "dataId": "list5",
+            "elements": ["Podlista 5.1", "Podlista 5.2", "Podlista 5.3"]
+        }
+    ]
+}
