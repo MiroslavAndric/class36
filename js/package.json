@@ -4,14 +4,17 @@
   "description": "Ovo je nas novi projekat",
   "main": "index.js",
   "scripts": {
-    "start":"node index",
+    "start": "node index",
     "test": "node test",
-    "pushtogit" : "git add . && git commit -m'Poruka' && git push "
+    "pushtogit": "git add . && git commit -m'Poruka' && git push "
   },
   "keywords": [
     "project",
     "class36"
   ],
   "author": "Miroslav Andricccc",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "got": "^12.6.0"
+  }
 }
