@@ -1,1 +1,1 @@
-console.log('neki moj inicijalni js')
+const promenljiva = 12345;
