@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start":"node index",
-    "test": "node test"
+    "test": "node test",
+    "pushtogit" : "git add . && git commit -m'Poruka' && git push "
   },
   "keywords": [
     "project",
     "class36"
   ],
-  "author": "Miroslav Andric",
+  "author": "Miroslav Andricccc",
   "license": "ISC"
 }
